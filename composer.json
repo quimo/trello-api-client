@@ -1,0 +1,17 @@
+{
+    "name": "quimo/trello-api-client",
+    "description": "Trello API Client",
+    "authors": [
+        {
+            "name": "Simone Alati",
+            "email": "simone.alati@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "vlucas/phpdotenv": "^4.1"
+    },
+    "autoload": {
+		"psr-4": {"TrelloApiClient\\": "src/"}
+	}
+}
